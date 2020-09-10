@@ -5,7 +5,7 @@ header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
 header('content-type: application/json; charset=utf-8');
 $obj=new conn;
 http_response_code(404);
-  $return['success']=error;
+  $return['success']="error";
   $return['message']="Ruta no encontrada";
   $return['sql']=null;
   $return['num_res']=null;
